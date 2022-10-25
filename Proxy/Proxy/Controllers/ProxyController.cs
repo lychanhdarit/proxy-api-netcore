@@ -1,14 +1,13 @@
 ﻿using AspNetCore.Proxy;
 using AspNetCore.Proxy.Options;
 using Microsoft.AspNetCore.Mvc;
-using System.Net.Http.Headers;
 
 namespace Proxy.Controllers
 { 
     public class ProxyController : Controller
     {
-        [Route("proxy/{**rest}")]
-        public Task Proxy(string rest)
+        [Route("proxy/{**endpoint}")]
+        public Task Proxy(string endpoint)
         {
             var queryString = this.Request.QueryString.Value;
             HttpProxyOptions httpProxyOptions = HttpProxyOptionsBuilder.Instance
@@ -18,7 +17,7 @@ namespace Proxy.Controllers
                     return Task.CompletedTask;
                 })
                 .Build();
-            return this.HttpProxyAsync($"{rest}?{queryString}", httpProxyOptions);
+            return this.HttpProxyAsync($"{endpoint}?{queryString}", httpProxyOptions);
         }
     }
 }
