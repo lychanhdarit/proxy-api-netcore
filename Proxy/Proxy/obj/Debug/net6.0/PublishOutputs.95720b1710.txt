@@ -1,0 +1,12 @@
+/home/dev/project/proxy-api-netcore/Proxy/Proxy/bin/Debug/net6.0/publish/Proxy
+/home/dev/project/proxy-api-netcore/Proxy/Proxy/bin/Debug/net6.0/publish/appsettings.Development.json
+/home/dev/project/proxy-api-netcore/Proxy/Proxy/bin/Debug/net6.0/publish/appsettings.json
+/home/dev/project/proxy-api-netcore/Proxy/Proxy/bin/Debug/net6.0/publish/Proxy.dll
+/home/dev/project/proxy-api-netcore/Proxy/Proxy/bin/Debug/net6.0/publish/Proxy.deps.json
+/home/dev/project/proxy-api-netcore/Proxy/Proxy/bin/Debug/net6.0/publish/Proxy.runtimeconfig.json
+/home/dev/project/proxy-api-netcore/Proxy/Proxy/bin/Debug/net6.0/publish/Proxy.pdb
+/home/dev/project/proxy-api-netcore/Proxy/Proxy/bin/Debug/net6.0/publish/AspNetCore.Proxy.dll
+/home/dev/project/proxy-api-netcore/Proxy/Proxy/bin/Debug/net6.0/publish/Microsoft.OpenApi.dll
+/home/dev/project/proxy-api-netcore/Proxy/Proxy/bin/Debug/net6.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/home/dev/project/proxy-api-netcore/Proxy/Proxy/bin/Debug/net6.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/dev/project/proxy-api-netcore/Proxy/Proxy/bin/Debug/net6.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
